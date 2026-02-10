@@ -1,4 +1,4 @@
-﻿namespace Actividad_Practica_1
+﻿namespace Ejercicio1U2
 {
     partial class Form1
     {
@@ -28,38 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label2 = new Label();
+            label1 = new Label();
             SuspendLayout();
             // 
-            // label2
+            // label1
             // 
-            label2.AutoSize = true;
-            label2.BackColor = SystemColors.ActiveCaptionText;
-            label2.Font = new Font("Times New Roman", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(12, 20);
-            label2.Name = "label2";
-            label2.Size = new Size(965, 32);
-            label2.TabIndex = 1;
-            label2.Text = "Bienvenido al formulario de Raynel Antonnio Cordero Mejia, LR-2024-01548";
+            label1.AutoSize = true;
+            label1.BackColor = SystemColors.ActiveCaptionText;
+            label1.Font = new Font("Stencil", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.Control;
+            label1.Location = new Point(41, 18);
+            label1.Name = "label1";
+            label1.Size = new Size(895, 25);
+            label1.TabIndex = 0;
+            label1.Text = "Bienvenido al formulario de Raynel Antonio Cordero Mejia, LR-2024-01548";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlDarkDark;
-            ClientSize = new Size(998, 450);
-            Controls.Add(label2);
-            ForeColor = SystemColors.ActiveCaptionText;
+            BackColor = SystemColors.ActiveBorder;
+            ClientSize = new Size(1005, 450);
+            Controls.Add(label1);
+            ForeColor = SystemColors.Control;
             Name = "Form1";
-            Text = "Actividad Practica 1";
-            Load += Form1_Load;
+            Text = "Ejercicio 1";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label2;
+        private Label label1;
     }
 }
